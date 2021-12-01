@@ -1,0 +1,61 @@
+@font-face{
+	font-family:ZhuZiAWan;
+	src:url(../font/ZhuZiAWan.woff2)
+}
+body{
+	font-family:ZhuZiAWan;
+}
+:root{
+	--hl-color:hsl(220, 14%, 71%);
+	--hl-bg:hsl(220, 13%, 18%)
+}
+figure.highlight pre .constant,
+figure.highlight pre .css .class,
+figure.highlight pre .deletion,
+figure.highlight pre .number,
+figure.highlight pre .ruby .constant,
+figure.highlight pre .tag .attr,
+figure.highlight pre .tag .name{
+	color:#d19965
+}
+figure.highlight pre .addition,
+figure.highlight pre .string,
+figure.highlight pre .value{
+	color:#97c279
+}
+figure.highlight pre .comment,
+figure.highlight pre .xml .cdata{
+	color:#5b6270
+}
+figure.highlight pre .built_in,
+figure.highlight pre .function,
+figure.highlight pre .javascript .function,
+figure.highlight pre .title,
+figure.highlight pre .variable{
+	color:#61afef
+}
+figure.highlight pre .coffeescript .title,
+figure.highlight pre .javascript .title,
+figure.highlight pre .python .title,
+figure.highlight pre .ruby .class .title,
+figure.highlight pre .ruby .function .title,
+figure.highlight pre .ruby .symbol,
+figure.highlight pre .tag,
+figure.highlight pre .xml .tag .title{
+	color:#df6b75
+}
+figure.highlight pre .html .doctype,
+figure.highlight pre .special,
+figure.highlight pre .xml .doctype{
+	color:#aab1bf
+}
+figure.highlight pre .command{
+	color:#626d82
+}
+figure.highlight pre .keyword,
+figure.highlight pre .ruby .title .keyword{
+	color:#c578dd
+}
+figure.highlight pre .params{
+	color:#aab1bf
+}
