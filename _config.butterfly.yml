@@ -27,9 +27,9 @@ hide_sidebar_menu_child: false
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
-code_word_wrap: false
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: 200 # unit: px
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -583,7 +583,7 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon: '\f0c1'
+  title-prefix-icon: '\f2dc'
   title-prefix-icon-color: '#F47466'
 
 # Global font settings
@@ -805,7 +805,7 @@ instantpage: true
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
   enable: true
-  field: site # site/post
+  field: post # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
@@ -839,6 +839,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="/css/categories-style.css">
   bottom:
     # - <script src="xxxx"></script>
 
