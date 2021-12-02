@@ -47,6 +47,10 @@ code snippet
 
 {% img [class names] /img/bg.jpg [auto] [auto] '"图片描述" "alt text"' %}
 
+### sm.ms图床
+
+![bg.jpg](https://i.loli.net/2021/12/02/ap9thsPx1cW57yw.jpg)
+
 ### 视频
 
 <video src='/video/test.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
