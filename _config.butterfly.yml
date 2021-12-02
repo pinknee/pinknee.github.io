@@ -838,8 +838,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/font.css">
-    - <link rel="stylesheet" href="/css/categories-style.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pinknee/img-bed/css/font.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pinknee/img-bed/css/categories-style.css">
   bottom:
     # - <script src="xxxx"></script>
 
