@@ -83,18 +83,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.jsdelivr.net/gh/pinknee/img@master/img/blog/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/pinknee/img@master/img/blog/favicon.png
+  img: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/favicon.png
   effect: false
 
 # Disable all banner image
 disable_top_img:
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/pinknee/img@master/img/tools/bg.jpg
+index_img: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -134,8 +134,8 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink:
+  post_page:
 
 # A simple 404 page
 error_404:
@@ -506,7 +506,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cdn.jsdelivr.net/gh/pinknee/img@master/img/tools/bg.jpg)
+background: url(https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg.jpg)
 
 # Footer Background
 footer_bg: false

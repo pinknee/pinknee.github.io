@@ -6,8 +6,34 @@ updated:
 comments:
 ---
 
-你看我长得漂亮不
+## Hi there👋，I'm Pink
 
-![](https://i.loli.net/2021/03/19/2P6ivUGsdaEXSFI.png)
+正在学习java后端知识，励志做一个合格的码农...
 
-我覺得很漂亮 {% inlineImg https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png 150px %}
+### 其他平台
+
+<!--Github Stats-->
+<!--
+![](https://github-readme-stats.vercel.app/api?username=pinknee&theme=dark)
+-->
+
+ - 公众号：堆与栈
+ - [CSDN](https://blog.csdn.net/pinknee?spm=1001.2014.3001.5343)
+ - [知乎](https://www.zhihu.com/people/su-ge-li-la-93)
+ - 待添加......
+
+<!--Languages-->
+### 技术栈:
+
+ - Java
+ - JS
+ - HTML
+ - Vue
+ - ECharts
+
+<!--Frameworks-->
+### 常用框架:
+
+ - Spring Boot
+ - Spring Cloud
+ - Mybatis
