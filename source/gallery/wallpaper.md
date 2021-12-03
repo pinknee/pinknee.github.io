@@ -1,6 +1,6 @@
 {% gallery %}
 ![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg13.jpg)
-![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg12.jpg)
+![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg12.png)
 ![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg11.jpg)
 ![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg10.jpg)
 ![](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg9.jpg)
