@@ -841,6 +841,7 @@ inject:
   head:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pinknee/img-bed/css/font.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pinknee/img-bed/css/categories-style.css">
+    #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly@1.4.0/dist/css/index.min.css">
   bottom:
     # - <script src="xxxx"></script>
 
