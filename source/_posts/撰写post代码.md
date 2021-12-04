@@ -81,7 +81,7 @@ public class HelloWorld{
 
 ### 视频
 
-<video src='https://cdn.jsdelivr.net/gh/pinknee/img-bed/video/test.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+<video src='https://cdn.jsdelivr.net/gh/pinknee/img-bed/video/jinx.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
 </video>
 
 <video src='https://cdn.jsdelivr.net/gh/pinknee/img-bed/video/xinjiekou.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
