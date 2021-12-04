@@ -2268,16 +2268,6 @@ blockquote footer cite:before {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 900px) {
-  .layout > div:first-child {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -o-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
-}
 .layout.hide-aside {
   max-width: 1000px;
 }
@@ -2613,7 +2603,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside-content {
-    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -3470,7 +3460,6 @@ blockquote footer cite:before {
   bottom: 5rem;
   padding: 0 8%;
   width: 100%;
-  text-align: center;
 }
 @media screen and (max-width: 900px) {
   #page-header #post-info {
@@ -3547,11 +3536,14 @@ blockquote footer cite:before {
 }
 #page h1.page-title {
   margin: 0.4rem 0 1rem;
+  text-align: center;
 }
 #post > #post-info {
+  text-align: center;
   margin-bottom: 1.5rem;
 }
 #post > #post-info .post-title {
+  text-align: center;
   padding-bottom: 0.2rem;
   border-bottom: 1px solid var(--light-grey);
   color: var(--text-highlight-color);
@@ -3562,9 +3554,6 @@ blockquote footer cite:before {
 #post > #post-info #post-meta,
 #post > #post-info #post-meta a {
   color: #78818a;
-}
-#post-info {
-  text-align: center;
 }
 #post-info .post-title {
   margin-bottom: 0.4rem;
