@@ -414,7 +414,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text:
+  custom_text: Talk is cheap,show me the code
   copyright: true # Copyright of theme and framework
 
 # Analysis
