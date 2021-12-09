@@ -792,5 +792,57 @@ DNS域名解析  www.baidu.com 220.181.38.148
 
 > 协议：//ip地址:端口/项目名/资源
 
+`从网络上下载资源`
 
+```java
+package com.pink.demo04;
+
+import javax.net.ssl.HttpsURLConnection;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+
+public class URLDownLoad {
+    public static void main(String[] args) {
+        HttpsURLConnection urlConnection = null;
+        InputStream inputStream = null;
+        FileOutputStream fos = null;
+        try {
+            //1.下载地址
+            URL url = new URL("https://sm.ms/image/aKOcLiyPl2JQdFD");
+            //2.连接到这个资源
+            urlConnection = (HttpsURLConnection) url.openConnection();
+
+            inputStream = urlConnection.getInputStream();
+            fos = new FileOutputStream("aKOcLiyPl2JQdFD");
+            byte[] buffer = new byte[1024];
+            int len;
+            while ((len=inputStream.read(buffer))!=-1){
+                fos.write(buffer,0,len);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if (fos != null) {
+                    fos.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                if (inputStream != null) {
+                    inputStream.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (urlConnection != null) {
+                urlConnection.disconnect();
+            }
+        }
+    }
+}
+```
 
