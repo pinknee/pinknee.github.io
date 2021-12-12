@@ -78,7 +78,7 @@ date: 2021-12-01 20:52:31
 ```
 
 ![示例](https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg.jpg)
-
+![示例](https://gitee.com/pinknee/img-bed/blob/master/favicon.png)
 ## 超链接
 
 [Pink的博客](https://pinknee.cn/)
