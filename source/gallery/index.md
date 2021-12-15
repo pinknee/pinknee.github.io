@@ -5,5 +5,5 @@ aside: false
 ---
 
 <div class="gallery-group-main">
-{% galleryGroup '壁紙' '收藏的一些壁紙' '/gallery/wallpaper' https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/bg13.jpg %}
+{% galleryGroup '壁紙' '收藏的一些壁紙' '/gallery/wallpaper' https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/wallpaper/bg13.jpg %}
 </div>
