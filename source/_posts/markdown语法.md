@@ -1,7 +1,7 @@
 ---
 title: markdown语法
 top_img: false
-cover: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/markdown.jpg
+cover: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/cover/markdown.jpg
 sticky: 1
 tags:
   - hexo

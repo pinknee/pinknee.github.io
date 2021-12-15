@@ -7,7 +7,7 @@ tags:
   - HttpUtils
   - map
 top_img: false
-cover: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/HttpUtils.jpg
+cover: https://cdn.jsdelivr.net/gh/pinknee/img-bed/img/cover/HttpUtils.jpg
 categories:
   - [BUG]
 date: 2021-12-06 18:41:22
